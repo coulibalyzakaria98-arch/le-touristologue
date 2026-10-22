@@ -1,0 +1,227 @@
+[
+  {
+    "id": "san-pedro",
+    "name": { "fr": "San Pedro", "en": "San Pedro" },
+    "slug": "san-pedro",
+    "country": "Côte d’Ivoire",
+    "latitude": 4.7589989,
+    "longitude": -6.6463922,
+    "coordinateSource": "OpenStreetMap Nominatim: San-Pédro city, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Base de LE TOURISTOLOGUE et point de départ des excursions de la région.",
+      "en": "LE TOURISTOLOGUE’s home base and starting point for regional trips."
+    },
+    "image": null
+  },
+  {
+    "id": "grand-bereby",
+    "name": { "fr": "Grand-Béréby", "en": "Grand-Béréby" },
+    "slug": "grand-bereby",
+    "country": "Côte d’Ivoire",
+    "latitude": 4.6507586,
+    "longitude": -6.9247355,
+    "coordinateSource": "OpenStreetMap Nominatim: Grand-Béréby, San-Pédro, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination du littoral proposée pour les excursions et les rencontres culturelles.",
+      "en": "A coastal destination for excursions and cultural encounters."
+    },
+    "image": null
+  },
+  {
+    "id": "monogaga",
+    "name": { "fr": "Monogaga", "en": "Monogaga" },
+    "slug": "monogaga",
+    "country": "Côte d’Ivoire",
+    "latitude": 4.805011,
+    "longitude": -6.445145,
+    "coordinateSource": "OpenStreetMap Nominatim: Monogaga plage, San-Pédro, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Étape côtière du circuit Mer & nature et du week-end régional.",
+      "en": "A coastal stop on the Sea & Nature circuit and regional weekend trip."
+    },
+    "image": null
+  },
+  {
+    "id": "sassandra",
+    "name": { "fr": "Sassandra", "en": "Sassandra" },
+    "slug": "sassandra",
+    "country": "Côte d’Ivoire",
+    "latitude": 4.9490007,
+    "longitude": -6.0921667,
+    "coordinateSource": "OpenStreetMap Nominatim: Sassandra, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination de l’itinéraire historique envisagé entre San Pedro et Sassandra.",
+      "en": "A destination on the planned historical route between San Pedro and Sassandra."
+    },
+    "image": null
+  },
+  {
+    "id": "yamoussoukro",
+    "name": { "fr": "Yamoussoukro", "en": "Yamoussoukro" },
+    "slug": "yamoussoukro",
+    "country": "Côte d’Ivoire",
+    "latitude": 6.8200066,
+    "longitude": -5.2776034,
+    "coordinateSource": "OpenStreetMap Nominatim: Yamoussoukro, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "kong",
+    "name": { "fr": "Kong", "en": "Kong" },
+    "slug": "kong",
+    "country": "Côte d’Ivoire",
+    "latitude": 9.148681,
+    "longitude": -4.610648,
+    "coordinateSource": "OpenStreetMap Nominatim: Kong, Tchologo, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "man",
+    "name": { "fr": "Man", "en": "Man" },
+    "slug": "man",
+    "country": "Côte d’Ivoire",
+    "latitude": 7.4102584,
+    "longitude": -7.5503719,
+    "coordinateSource": "OpenStreetMap Nominatim: Man, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "odienne",
+    "name": { "fr": "Odienné", "en": "Odienné" },
+    "slug": "odienne",
+    "country": "Côte d’Ivoire",
+    "latitude": 9.504431,
+    "longitude": -7.561942,
+    "coordinateSource": "OpenStreetMap Nominatim: Odienné, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "ferkessedougou",
+    "name": { "fr": "Ferkessédougou", "en": "Ferkessédougou" },
+    "slug": "ferkessedougou",
+    "country": "Côte d’Ivoire",
+    "latitude": 9.5939778,
+    "longitude": -5.1975952,
+    "coordinateSource": "OpenStreetMap Nominatim: Ferkéssédougou, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "bongouanou",
+    "name": { "fr": "Bongouanou", "en": "Bongouanou" },
+    "slug": "bongouanou",
+    "country": "Côte d’Ivoire",
+    "latitude": 6.6475288,
+    "longitude": -4.2046603,
+    "coordinateSource": "OpenStreetMap Nominatim: Bongouanou, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "bouafle",
+    "name": { "fr": "Bouaflé", "en": "Bouaflé" },
+    "slug": "bouafle",
+    "country": "Côte d’Ivoire",
+    "latitude": 6.980181,
+    "longitude": -5.7458332,
+    "coordinateSource": "OpenStreetMap Nominatim: Bouaflé, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "grand-bassam",
+    "name": { "fr": "Grand-Bassam", "en": "Grand-Bassam" },
+    "slug": "grand-bassam",
+    "country": "Côte d’Ivoire",
+    "latitude": 5.212884,
+    "longitude": -3.743226,
+    "coordinateSource": "OpenStreetMap Nominatim: Grand-Bassam, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "abidjan",
+    "name": { "fr": "Abidjan", "en": "Abidjan" },
+    "slug": "abidjan",
+    "country": "Côte d’Ivoire",
+    "latitude": 5.320357,
+    "longitude": -4.016107,
+    "coordinateSource": "OpenStreetMap Nominatim: Abidjan, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "korhogo",
+    "name": { "fr": "Korhogo", "en": "Korhogo" },
+    "slug": "korhogo",
+    "country": "Côte d’Ivoire",
+    "latitude": 9.4580698,
+    "longitude": -5.6316293,
+    "coordinateSource": "OpenStreetMap Nominatim: Korhogo, Côte d’Ivoire",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination ivoirienne proposée au catalogue. Circuits et activités à confirmer.",
+      "en": "A Côte d’Ivoire destination in the catalogue. Trips and activities to be confirmed."
+    },
+    "image": null
+  },
+  {
+    "id": "liberia",
+    "name": { "fr": "Liberia", "en": "Liberia" },
+    "slug": "liberia",
+    "country": "Liberia",
+    "latitude": 6.3203562,
+    "longitude": -10.8060492,
+    "coordinateSource": "OpenStreetMap Nominatim: Monrovia, Liberia; representative city marker for the country destination",
+    "published": true,
+    "shortDescription": {
+      "fr": "Destination internationale envisagée ; les itinéraires restent à confirmer.",
+      "en": "Planned international destination; itineraries are to be confirmed."
+    },
+    "image": null
+  }
+]

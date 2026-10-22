@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      id="page-description"
+      name="description"
+      content="Découvrez la Côte d’Ivoire autrement avec LE TOURISTOLOGUE : circuits à San Pedro, expériences culturelles et voyages sur mesure."
+    />
+    <meta name="theme-color" content="#f7f6f1" />
+    <!-- Add the owner's official contact details before launch. -->
+    <meta name="contact-email" content="" />
+    <meta name="whatsapp-number" content="" />
+    <meta property="og:type" content="website" />
+    <meta id="og-title" property="og:title" content="LE TOURISTOLOGUE — La Côte d’Ivoire se découvre autrement" />
+    <meta
+      id="og-description"
+      property="og:description"
+      content="Des voyages qui rapprochent des paysages, des histoires et des communautés de Côte d’Ivoire."
+    />
+    <title id="page-title">LE TOURISTOLOGUE — La Côte d’Ivoire se découvre autrement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="LE TOURISTOLOGUE, accueil">
+        <span class="brand-mark" aria-hidden="true">T<span>.</span></span>
+        <span class="brand-name">LE <strong>TOURISTOLOGUE</strong><small>VOYAGES & RENCONTRES</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Ouvrir le menu</span>
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <a href="#circuits" data-i18n="navTrips">Nos circuits</a>
+        <a href="#destinations" data-i18n="navDestinations">Destinations</a>
+        <a href="#culture" data-i18n="navCulture">Nos valeurs</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <button class="language-toggle" type="button" aria-label="Switch language to English">EN</button>
+        <a class="nav-cta" href="#sur-mesure" data-i18n="navCta">Créer mon voyage <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="accueil">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">VOTRE HISTOIRE COMMENCE ICI</span></p>
+          <h1 data-i18n="heroTitle">La Côte d’Ivoire<br />se découvre <em>autrement.</em></h1>
+          <p class="hero-description" data-i18n="heroBody">
+            Des rivages de San Pedro aux rencontres qui marquent, vivez des voyages
+            authentiques, au rythme des lieux et de ceux qui les font.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#circuits"><span data-i18n="heroButton">Explorer les circuits</span><span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#apropos"><span data-i18n="heroStory">Notre histoire</span><span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">✳</span>
+            <p><strong data-i18n="heroNoteStrong">Petits groupes, grandes rencontres.</strong><br /><span data-i18n="heroNote">Au départ de San Pedro, Côte d’Ivoire.</span></p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1500&q=85"
+            alt="Photographie d’illustration d’un littoral tropical au coucher du soleil"
+            data-i18n-alt="heroAlt"
+            fetchpriority="high"
+          />
+          <div class="photo-label"><span class="label-dot"></span><span data-i18n="heroPhotoLabel">L’APPEL DU GRAND BLEU</span></div>
+          <div class="hero-stamp" aria-label="Voyages de proximité et de partage">
+            <span>VOYAGES</span><span class="stamp-star">✳</span><span>DE PARTAGE</span>
+          </div>
+          <p class="photo-credit" data-i18n="photoIllustration">Photographie d’illustration</p>
+        </div>
+        <a class="scroll-cue" href="#circuits"><span></span><span data-i18n="scroll">DÉFILER POUR EXPLORER</span></a>
+      </section>
+
+      <section class="intro-strip" aria-label="Notre promesse">
+        <div class="intro-inner">
+          <span data-i18n="strip1">FAIT AVEC LE CŒUR, EN CÔTE D’IVOIRE</span><i>✳</i>
+          <span data-i18n="strip2">DES ITINÉRAIRES QUI ONT DU SENS</span><i>✳</i>
+          <span data-i18n="strip3">DES RENCONTRES, PAS JUSTE DES VISITES</span>
+        </div>
+      </section>
+
+      <section class="section section-wrap trips-section" id="circuits">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="tripsEyebrow">PRENEZ LE TEMPS DE VOIR</span></p>
+            <h2 data-i18n="tripsTitle">Des escapades qui<br /><em>vous ressemblent.</em></h2>
+          </div>
+          <p class="heading-aside" data-i18n="tripsAside">Un grand bol d’air, un week-end au bord de l’eau ou une immersion culturelle : choisissez votre façon de voyager.</p>
+        </div>
+        <div class="trip-toolbar">
+          <div class="filter-tabs" role="group" aria-label="Filtrer les circuits">
+            <button class="filter-button is-active" type="button" data-filter="all" data-i18n="filterAll">Tous les circuits</button>
+            <button class="filter-button" type="button" data-filter="nature" data-i18n="filterNature">Nature & mer</button>
+            <button class="filter-button" type="button" data-filter="culture" data-i18n="filterCulture">Culture & histoire</button>
+          </div>
+          <span class="trip-count" aria-live="polite"></span>
+        </div>
+        <div class="trip-grid">
+          <article class="trip-card trip-card-featured" data-category="nature" data-destination="San Pedro">
+            <a class="trip-image" href="#contact" aria-label="Demander des informations sur l’excursion à San Pedro">
+              <img src="https://images.unsplash.com/photo-1509233725247-49e657c54213?auto=format&fit=crop&w=1000&q=80" alt="Photographie d’illustration d’une plage bordée de palmiers" data-i18n-alt="dayTripAlt" loading="lazy" />
+              <span class="trip-tag" data-i18n="tagDay">À LA JOURNÉE</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="trip-info">
+              <div class="trip-meta"><span data-i18n="metaSanPedro">SAN PEDRO · GRAND-BÉRÉBY</span><span>01</span></div>
+              <h3 data-i18n="trip1Title">L’essentiel de San Pedro</h3>
+              <p data-i18n="trip1Desc">Mini-zoo, Rocher des Amoureux, piscine naturelle ou grand marché : les étapes s’adaptent au temps disponible et à l’accès aux sites.</p>
+              <div class="trip-footer"><span data-i18n="durationDay">1 journée · Programme adaptable</span><a href="#contact" data-i18n="discover">Découvrir <span>→</span></a></div>
+            </div>
+          </article>
+          <article class="trip-card" data-category="nature" data-destination="Monogaga">
+            <a class="trip-image" href="#contact" aria-label="Demander des informations sur le circuit Mer et Nature">
+              <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1000&q=80" alt="Photographie d’illustration de la côte et de la mer" data-i18n-alt="coastAlt" loading="lazy" />
+              <span class="trip-tag" data-i18n="tag3Days">3 JOURS</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="trip-info">
+              <div class="trip-meta"><span data-i18n="metaCoast">MONOGAGA · GRAND-BÉRÉBY · TRAHÉ</span><span>02</span></div>
+              <h3 data-i18n="trip2Title">Mer & nature</h3>
+              <p data-i18n="trip2Desc">De Monogaga à Trahé : plage, ancien site de La Langouste d’Or, singes aux nez blancs, palmier anaconda, piscine de Tabaoulé et cascade.</p>
+              <div class="trip-footer"><span data-i18n="duration3Days">3 jours · Tarif à confirmer</span><a href="#contact" data-i18n="discover">Découvrir <span>→</span></a></div>
+            </div>
+          </article>
+          <article class="trip-card" data-category="culture" data-destination="Grand-Béréby">
+            <a class="trip-image" href="#contact" aria-label="Demander des informations sur l’immersion en pays kroumen">
+              <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1000&q=80" alt="Photographie d’illustration d’un paysage naturel tropical" data-i18n-alt="natureAlt" loading="lazy" />
+              <span class="trip-tag" data-i18n="tagCulture">IMMERSION</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="trip-info">
+              <div class="trip-meta"><span data-i18n="metaBereby">GRAND-BÉRÉBY · RENCONTRE LOCALE</span><span>03</span></div>
+              <h3 data-i18n="trip3Title">Immersion en pays kroumen</h3>
+              <p data-i18n="trip3Desc">Embouchure, débarcadère, rencontre au village, traditions et repas partagé, dans le respect de l’accord des communautés.</p>
+              <div class="trip-footer"><span data-i18n="durationToConfirm">Durée et modalités à confirmer</span><a href="#contact" data-i18n="discover">Découvrir <span>→</span></a></div>
+            </div>
+          </article>
+          <article class="trip-card" data-category="nature" data-destination="San Pedro, Monogaga, Grand-Béréby">
+            <a class="trip-image" href="#contact" aria-label="Demander des informations sur le circuit week-end">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80" alt="Photographie d’illustration d’un paysage côtier à la lumière du matin" data-i18n-alt="weekendAlt" loading="lazy" />
+              <span class="trip-tag" data-i18n="tagWeekend">WEEK-END</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="trip-info">
+              <div class="trip-meta"><span data-i18n="metaWeekend">SAN PEDRO · MONOGAGA · GRAND-BÉRÉBY</span><span>04</span></div>
+              <h3 data-i18n="trip4Title">Le week-end côté mer</h3>
+              <p data-i18n="trip4Desc">Trois jours entre les plages de San Pedro, Monogaga et Grand-Béréby ; hébergements et activités seront confirmés.</p>
+              <div class="trip-footer"><span data-i18n="durationWeekend">Vendredi–dimanche · Options à confirmer</span><a href="#contact" data-i18n="discover">Découvrir <span>→</span></a></div>
+            </div>
+          </article>
+          <article class="trip-card" data-category="culture" data-destination="San Pedro, Sassandra">
+            <a class="trip-image" href="#contact" aria-label="Demander des informations sur le circuit historique San Pedro–Sassandra">
+              <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=80" alt="Photographie d’illustration d’une architecture patrimoniale" data-i18n-alt="historyAlt" loading="lazy" />
+              <span class="trip-tag" data-i18n="tagHistory">HISTOIRE</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="trip-info">
+              <div class="trip-meta"><span data-i18n="metaHistory">SAN PEDRO · SASSANDRA</span><span>05</span></div>
+              <h3 data-i18n="trip5Title">Sur les traces de l’histoire</h3>
+              <p data-i18n="trip5Desc">San Pedro–Sassandra : un itinéraire autour de lieux et de récits historiques, à documenter et valider avant publication.</p>
+              <div class="trip-footer"><span data-i18n="historyToConfirm">Contenu historique à valider</span><a href="#contact" data-i18n="discover">Découvrir <span>→</span></a></div>
+            </div>
+          </article>
+          <article class="trip-card" data-category="culture" data-destination="San Pedro">
+            <a class="trip-image" href="#contact" aria-label="Demander des informations sur le circuit Histoire et Modernité">
+              <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=80" alt="Photographie d’illustration d’un paysage urbain" data-i18n-alt="cityAlt" loading="lazy" />
+              <span class="trip-tag" data-i18n="tagCity">VILLE & PATRIMOINE</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="trip-info">
+              <div class="trip-meta"><span data-i18n="metaSanPedro">SAN PEDRO · CÔTE D’IVOIRE</span><span>06</span></div>
+              <h3 data-i18n="trip6Title">San Pedro, histoire & modernité</h3>
+              <p data-i18n="trip6Desc">Monument de la Paix, port depuis les points accessibles, rue des Banques, Séwéké, Grand-Bardot, stade Laurent Pokou et Rocher des Amoureux.</p>
+              <div class="trip-footer"><span data-i18n="durationToConfirm">Durée et modalités à confirmer</span><a href="#contact" data-i18n="discover">Découvrir <span>→</span></a></div>
+            </div>
+          </article>
+        </div>
+        <p class="content-note"><span aria-hidden="true">✳</span><span data-i18n="tripNote">Les tarifs, horaires et disponibilités sont communiqués après validation de votre demande. Les itinéraires peuvent évoluer selon l’accès aux sites.</span></p>
+      </section>
+
+      <section class="destination-section" id="destinations">
+        <div class="destination-photo">
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=85" alt="Photographie d’illustration d’une rivière traversant un paysage verdoyant" data-i18n-alt="riverAlt" loading="lazy" />
+          <span class="photo-credit" data-i18n="photoIllustration">Photographie d’illustration</span>
+        </div>
+        <div class="destination-copy">
+          <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span><span data-i18n="destEyebrow">DES TERRES À EXPLORER</span></p>
+          <h2 data-i18n="destTitle">Un pays.<br />Mille façons de <em>s’émerveiller.</em></h2>
+          <p data-i18n="destBody">Des plages du Sud aux montagnes de l’Ouest, chaque région a son rythme, ses saveurs et ses histoires. Nous vous y emmenons avec curiosité et attention.</p>
+          <div class="destination-list" aria-label="Destinations proposées">
+            <a href="#sur-mesure">San Pedro <span>↗</span></a>
+            <a href="#sur-mesure">Grand-Béréby <span>↗</span></a>
+            <a href="#sur-mesure">Monogaga <span>↗</span></a>
+            <a href="#sur-mesure">Sassandra <span>↗</span></a>
+            <a href="#sur-mesure">Grand-Bassam <span>↗</span></a>
+            <a href="#sur-mesure">Man <span>↗</span></a>
+            <a href="#sur-mesure">Abidjan <span>↗</span></a>
+            <a href="#sur-mesure" data-i18n="otherDestinations">Et bien d’autres <span>↗</span></a>
+          </div>
+          <div class="dest-country"><span class="country-line"></span><span data-i18n="destInternational">Bientôt aussi au Liberia et au-delà.</span></div>
+        </div>
+      </section>
+      <section class="destination-index section-wrap" aria-label="Autres destinations">
+        <span data-i18n="destMoreLabel">D’AUTRES HORIZONS À DÉCOUVRIR</span>
+        <p>Yamoussoukro <i>·</i> Kong <i>·</i> Odienné <i>·</i> Ferkessédougou <i>·</i> Bongouanou <i>·</i> Bouaflé <i>·</i> Korhogo <i>·</i> Liberia</p>
+      </section>
+
+      <section class="globe-section" id="explorer" aria-labelledby="globe-title">
+        <div class="globe-inner section-wrap">
+          <div class="globe-heading">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="globeEyebrow">UN MONDE D’EXPÉRIENCES</span></p>
+              <h2 id="globe-title" data-i18n="globeTitle">Explorez la Côte d’Ivoire<br />et <em>le monde.</em></h2>
+            </div>
+            <p data-i18n="globeIntro">Des plages de San Pedro aux destinations internationales, partez à la découverte de nouvelles expériences.</p>
+          </div>
+          <div class="globe-layout">
+            <div class="globe-stage" id="globe-stage">
+              <div class="globe-fallback" id="globe-fallback">
+                <span class="fallback-orbit fallback-orbit-one"></span>
+                <span class="fallback-orbit fallback-orbit-two"></span>
+                <span class="fallback-sphere"><span>✳</span></span>
+                <span class="fallback-caption" data-i18n="globeLoading">Le globe interactif se prépare…</span>
+              </div>
+              <canvas class="globe-canvas" id="destination-globe" aria-hidden="true"></canvas>
+              <div class="globe-marker-layer" id="globe-markers" role="group" aria-label="Marqueurs de destinations"></div>
+              <div class="globe-toolbar">
+                <button id="globe-reset" type="button" data-i18n="globeReset">Réinitialiser la vue</button>
+                <span data-i18n="globeHint">Faites glisser pour explorer</span>
+              </div>
+              <p class="globe-attribution" data-i18n="globeAttribution">Globe illustratif · Contours Natural Earth · Repères OpenStreetMap contributors (ODbL). Les lieux proches peuvent être regroupés.</p>
+            </div>
+            <div class="globe-details">
+              <div class="destination-detail" aria-live="polite" aria-atomic="true">
+                <span class="detail-kicker" data-i18n="detailKicker">VOTRE PROCHAINE ÉTAPE</span>
+                <h3 id="selected-destination-title" data-i18n="detailDefaultTitle">À vous de choisir.</h3>
+                <p id="selected-destination-description" data-i18n="detailDefaultDescription">Sélectionnez un lieu sur le globe ou parcourez la liste pour explorer les destinations.</p>
+                <a class="button button-dark destination-cta" id="destination-cta" href="#sur-mesure"><span data-i18n="destinationCta">Imaginer un voyage ici</span><span aria-hidden="true">↗</span></a>
+              </div>
+              <div class="destination-list-wrap">
+                <div class="destination-list-heading"><span data-i18n="destinationListTitle">CHOISISSEZ UNE DESTINATION</span><span id="destination-count"></span></div>
+                <ul class="globe-destination-list" id="destination-list" aria-label="Destinations disponibles"></ul>
+              </div>
+            </div>
+          </div>
+          <noscript><p class="globe-noscript">Le globe nécessite JavaScript ; les destinations restent consultables dans la liste de la page.</p></noscript>
+        </div>
+      </section>
+
+      <section class="section section-wrap tailor-section" id="sur-mesure">
+        <div class="tailor-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="tailorEyebrow">VOTRE VOYAGE, VOS RÈGLES</span></p>
+          <h2 data-i18n="tailorTitle">Et si on partait<br /><em>à votre façon ?</em></h2>
+          <p data-i18n="tailorBody">Une envie précise, quelques jours de libres ou une grande occasion à célébrer ? Dites-nous ce qui vous fait rêver. Nous construirons ensemble un itinéraire à votre mesure.</p>
+          <div class="tailor-perks">
+            <div><span class="perk-number">01</span><span data-i18n="perk1">Vous partagez vos envies</span></div>
+            <div><span class="perk-number">02</span><span data-i18n="perk2">Nous imaginons votre itinéraire</span></div>
+            <div><span class="perk-number">03</span><span data-i18n="perk3">Vous recevez une proposition</span></div>
+          </div>
+          <p class="form-disclaimer" data-i18n="formDisclaimer">Votre envoi constitue une demande de renseignement, pas une réservation confirmée.</p>
+        </div>
+        <form class="request-form" id="request-form">
+          <div class="form-heading">
+            <span class="form-icon" aria-hidden="true">✳</span>
+            <div><span class="form-kicker" data-i18n="formKicker">ON EN PARLE ?</span><h3 data-i18n="formTitle">Racontez-nous votre projet</h3></div>
+          </div>
+          <label for="request-type" data-i18n="labelType">Type de demande</label>
+          <select id="request-type" name="type" required>
+            <option value="" data-i18n="chooseOption">Choisissez une option</option>
+            <option value="standard" data-i18n="optionStandard">Circuit standard</option>
+            <option value="custom" data-i18n="optionCustom">Voyage sur mesure</option>
+            <option value="other" data-i18n="optionOther">Autre renseignement</option>
+          </select>
+          <div class="form-row">
+            <div><label for="name" data-i18n="labelName">Votre nom</label><input id="name" name="name" autocomplete="name" required placeholder="Ex. Awa Koné" data-i18n-placeholder="placeholderName" /></div>
+            <div><label for="email" data-i18n="labelEmail">Votre e-mail</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="vous@exemple.com" /></div>
+          </div>
+          <div class="form-row">
+            <div><label for="travel-date" data-i18n="labelDate">Dates envisagées</label><input id="travel-date" name="dates" placeholder="Ex. dates flexibles" data-i18n-placeholder="placeholderDate" /></div>
+            <div><label for="travelers" data-i18n="labelTravelers">Nombre de voyageurs</label><select id="travelers" name="travelers"><option value="" data-i18n="selectLater">À préciser</option><option>1–2</option><option>3–5</option><option>6–10</option><option>10+</option></select></div>
+          </div>
+          <label for="interests" data-i18n="labelInterest">Où souhaitez-vous aller ? Qu’aimez-vous faire ?</label>
+          <textarea id="interests" name="interests" rows="3" required placeholder="Une destination, la nature, la culture, un budget indicatif…" data-i18n-placeholder="placeholderInterest"></textarea>
+          <label class="consent-check"><input type="checkbox" name="consent" required /><span data-i18n="consentText">J’accepte que LE TOURISTOLOGUE utilise ces informations pour répondre à ma demande.</span></label>
+          <button class="button button-dark form-submit" type="submit"><span data-i18n="submitRequest">Préparer ma demande</span><span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+          <p class="privacy-note" data-i18n="privacyNote">Vos informations restent confidentielles. Elles ne sont pas transmises depuis cette démo.</p>
+        </form>
+      </section>
+
+      <section class="culture-section" id="culture">
+        <div class="culture-inner section-wrap">
+          <div class="culture-content">
+            <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span><span data-i18n="cultureEyebrow">VOYAGER AVEC CURIOSITÉ, ET AVEC RESPECT</span></p>
+            <h2 data-i18n="cultureTitle">La plus belle rencontre,<br />c’est <em>celle qu’on partage.</em></h2>
+            <p data-i18n="cultureBody">Un voyage prend tout son sens quand il se vit avec les personnes qui font la richesse d’un lieu. Nous défendons des expériences préparées avec les communautés, dans le respect de leurs traditions, de leur consentement et de leur juste rémunération.</p>
+            <a class="text-link text-link-light" href="#apropos"><span data-i18n="cultureLink">Ce qui nous guide</span><span aria-hidden="true">→</span></a>
+          </div>
+          <div class="culture-image">
+            <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=1000&q=80" alt="Photographie d’illustration d’un moment de rencontre et de partage" data-i18n-alt="meetingAlt" loading="lazy" />
+            <span class="photo-credit" data-i18n="photoIllustration">Photographie d’illustration</span>
+            <div class="culture-caption"><span>✳</span><span data-i18n="cultureCaption">ÉCOUTER · APPRENDRE · PARTAGER</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section section-wrap">
+        <div class="gallery-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="galleryEyebrow">UN AVANT-GOÛT DU VOYAGE</span></p><h2 data-i18n="galleryTitle">La beauté est <em>tout près.</em></h2></div>
+          <p data-i18n="galleryNote">Photographies d’illustration en attendant les images authentiques des circuits.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-large"><img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80" alt="Photographie d’illustration d’une plage tropicale" data-i18n-alt="galleryAlt1" loading="lazy" /><figcaption data-i18n="galleryCaption1">L’appel de la côte</figcaption></figure>
+          <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80" alt="Photographie d’illustration d’un paysage naturel verdoyant" data-i18n-alt="galleryAlt2" loading="lazy" /><figcaption data-i18n="galleryCaption2">Loin du quotidien</figcaption></figure>
+          <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80" alt="Photographie d’illustration de végétation tropicale" data-i18n-alt="galleryAlt3" loading="lazy" /><figcaption data-i18n="galleryCaption3">Au cœur du vivant</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="quote-section" id="apropos">
+        <div class="quote-inner section-wrap">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <p class="quote-text" data-i18n="quote">Venez comme des inconnu(e)s<br />et repartez <em>ami(e)s.</em></p>
+          <div class="quote-bottom"><span class="quote-rule"></span><span data-i18n="quoteBy">L’ESPRIT LE TOURISTOLOGUE</span><span class="quote-rule"></span></div>
+        </div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contact">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="contactEyebrow">UN PROJET, UNE QUESTION ?</span></p><h2 data-i18n="contactTitle">On vous écoute.<br /><em>Vraiment.</em></h2></div>
+        <div class="contact-actions"><p data-i18n="contactBody">Parlez-nous de vos envies. Nous vous répondrons pour imaginer la suite ensemble.</p><a class="button button-dark" href="#sur-mesure"><span data-i18n="contactButton">Écrire à notre équipe</span><span aria-hidden="true">↗</span></a><span class="contact-location"><span class="location-dot"></span><span data-i18n="location">Basés à San Pedro, Côte d’Ivoire</span></span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top section-wrap">
+        <a class="brand brand-footer" href="#accueil">
+          <span class="brand-mark" aria-hidden="true">T<span>.</span></span>
+          <span class="brand-name">LE <strong>TOURISTOLOGUE</strong><small>VOYAGES & RENCONTRES</small></span>
+        </a>
+        <p data-i18n="footerPromise">La Côte d’Ivoire se découvre autrement.</p>
+        <a class="back-top" href="#accueil" data-i18n="backTop">Retour en haut ↑</a>
+      </div>
+      <div class="footer-bottom section-wrap"><span>© <span id="year"></span> LE TOURISTOLOGUE</span><span data-i18n="footerPhoto">Images d’illustration · Coordonnées à compléter avant publication</span><a href="#contact" data-i18n="footerContact">Contact</a></div>
+    </footer>
+    <div class="floating-contact">
+      <a href="#sur-mesure" aria-label="Faire une demande de voyage"><span aria-hidden="true">✳</span><span data-i18n="floatingCta">Parlons voyage</span></a>
+    </div>
+  </body>
+</html>
